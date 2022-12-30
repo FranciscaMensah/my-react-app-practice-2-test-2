@@ -1,0 +1,12 @@
+create compopnent for preview.
+create component for write (editor).
+
+pass value of editor (text state) as props
+to the preview component.
+
+pass that prop to the children prop of the 
+Markdown component inside the preview component.
+
+In the editor component, render write if !is preview
+
+In the app component, render 

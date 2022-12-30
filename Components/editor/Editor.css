@@ -1,0 +1,75 @@
+.editor{
+    padding: 1rem 1rem;
+    margin: 0;
+}
+
+.tools{
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tabs{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.tabs button{
+    margin-right: .4rem;
+}
+
+.wrapper-1{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    padding: 1rem .5rem;
+    justify-content: space-between;
+}
+
+.wrapper-2{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.btn-nude{
+    border: none;
+    background-color: inherit;
+}
+
+.text-area{
+    width: 90%;
+    min-height: 50vh;
+    border: 1px solid #eeeeee;
+    background-color: white;
+    padding: .5rem;
+    border-radius: 3px;
+    color: #494949;
+    font-size: .9rem;
+    resize: none;
+}
+
+.text-area:focus{
+    outline: none;
+    color: #505050;
+    font-size: 1rem;
+    padding: .7rem;
+    transition: .06s ease-in;
+}
+
+.btn-tool{
+    background-color: inherit;
+    border: none;
+    padding: .2rem .4rem;
+}
+
+/* .btn-tool:hover{
+    background-color: #e0e0e0;
+    transition:  .5s ease;
+} */
